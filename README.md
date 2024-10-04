@@ -1,11 +1,14 @@
-Bloodborne Sound Repacking
+# Bloodborne Sound Repacking
 
-Guide and Tools for Repacking Sounds in Bloodborne
+Guide and Tools for Repacking Sounds in Bloodborne and Other Games with FSB Files
 
-Firstly, complete all steps below. Windows won't allow you to use files from the internet without certification.
-next open ExtractToMP3.bat and chose folder with fsb file in bloodborne 
+This process uses the following tools: lame.exe, fsbankcl.exe, and vgmstream-cli.exe.
 
-Step 1: Create RepackToFSB.bat
+Firstly, complete the bat file guide. Windows won't allow you to use files from the internet without proper certification.
+
+
+## bat file guide:
+### Step 1: Create RepackToFSB.bat
 
 Copy the code below.
 Create a .txt file, paste the copied code into it, and save it as RepackToFSB.bat.
@@ -99,7 +102,7 @@ pause
 
 
 
-
+### step 2: Create ExtractToMP3.bat
 Copy the new code below.
 Create another .txt file, paste the copied code into it, and save it as ExtractToMP3.bat.
 Replace the existing empty file with this new one in your project.
@@ -174,7 +177,23 @@ for %%F in ("%fsb_folder%\*.fsb") do (
 
 echo Extraction Done!
 echo[
+
 echo You can now close this window...
 echo[
 pause
 ```
+
+## sound-repacking guide:
+
+Open ExtractToMP3.bat and choose the folder containing the .fsb files from Bloodborne. The path should look like this:
+bloodborne\CUSA03173\dvdroot_ps4\sound.
+
+If you don't know where the game is installed, open shadps4 and check the game path.
+
+After obtaining the converted files(please note that this process may take some time) start RepackToFSB.bat and select the converted .fsb files from the directory, which should be like this:
+bloodborne\CUSA03173\dvdroot_ps4\sound\converted.
+
+Also, choose a folder for the repacked audio (the final .fsb files). This may be either:
+"bloodborne\CUSA03173\dvdroot_ps4\sound" or
+"bloodborne\CUSA03173\dvdroot_ps4\sound\repacked"
+(if you want to keep a backup).
