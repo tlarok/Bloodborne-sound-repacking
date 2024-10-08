@@ -1,6 +1,6 @@
 # Bloodborne Sound Repacking
 
-Guide and Tools for Repacking Sounds in Bloodborne and Other Games with FSB Files
+Guide and Tools for Repacking Sounds in Bloodborne and Other Games with FSB Files, Remember! if you do this with the game on shadPS4, INSTALLTHE PKG ON THE MAIN SHADPS4!
 
 This process uses the following tools: lame.exe, fsbankcl.exe, and vgmstream-cli.exe.
 
