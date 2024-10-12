@@ -187,6 +187,7 @@ pause
 
 Open ExtractToMP3.bat and choose the folder containing the .fsb files from Bloodborne. The path should look like this:
 bloodborne\CUSA03173\dvdroot_ps4\sound.
+After that, you'll have MP3 files from FSB in bloodborne\CUSA03173\dvdroot_ps4\sound\converted. Now you can change the audio to whatever you want, but to make it work you'll need to repack it back into fsb.
 
 If you don't know where the game is installed, open shadps4 and check the game path.
 
