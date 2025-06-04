@@ -1,6 +1,6 @@
 # Bloodborne Sound Repacking
 
-Guide and Tools for Repacking Sounds in Bloodborne and Other Games with FSB Files, Remember! if you do this with the game on shadPS4, INSTALLTHE PKG ON THE MAIN SHADPS4!
+Guide and Tools for Repacking Sounds in Bloodborne and Other Games with FSB Files.
 
 This process uses the following tools: lame.exe, fsbankcl.exe, and vgmstream-cli.exe.
 
@@ -186,15 +186,15 @@ pause
 ## sound-repacking guide:
 
 Open ExtractToMP3.bat and choose the folder containing the .fsb files from Bloodborne. The path should look like this:
-bloodborne\CUSA03173\dvdroot_ps4\sound.
-After that, you'll have MP3 files from FSB in bloodborne\CUSA03173\dvdroot_ps4\sound\converted. Now you can change the audio to whatever you want, but to make it work you'll need to repack it back into fsb.
+\CUSA03173\dvdroot_ps4\sound.
+After that, you'll have MP3 files from FSB in \CUSA03173\dvdroot_ps4\sound\converted. Now you can change the audio to whatever you want, but to make it work you'll need to repack it back into fsb.
 
 If you don't know where the game is installed, open shadps4 and check the game path.
 
 After obtaining the converted files(please note that this process may take some time) start RepackToFSB.bat and select the converted .fsb files from the directory, which should be like this:
-bloodborne\CUSA03173\dvdroot_ps4\sound\converted.
+\CUSA03173\dvdroot_ps4\sound\converted.
 
 Also, choose a folder for the repacked audio (the final .fsb files). This may be either:
-"bloodborne\CUSA03173\dvdroot_ps4\sound" or
-"bloodborne\CUSA03173\dvdroot_ps4\sound\repacked"
+"\CUSA03173\dvdroot_ps4\sound" or
+"\CUSA03173\dvdroot_ps4\sound\repacked"
 (if you want to keep a backup).
